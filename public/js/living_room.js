@@ -89,7 +89,7 @@ $(document).ready(function () {
         //  THESE ARE THE REQUEST, YOU'LL HAVE TO MAKE THE CHANGES HERE
         xhr = abortableWhen(jQuery, [
             // jQuery.get(`https://everthreadapi.com/calibration/preview2.php?r5d=54&augmentID=2200&format=NOTbase64&patternID=1&isThumb=0&color1=191919&color2=&color3=&color4=&scaleSize=1&isr=1&angle=1&${constructQueryString([o1, o2, o3, o4])}`),
-            jQuery.get(`http://everthreadapi.com/calibration/preview2.php?r5d=54&augmentID=2221&format=NOTbase64&patternID=1&isThumb=0&color1=&color2=&color3=&color4=&scaleSize=1&isr=1&angle=1&${constructQueryString([o1, o2, o3])}`),
+            jQuery.get(`https://everthreadapi.com/calibration/preview2.php?r5d=54&augmentID=2221&format=NOTbase64&patternID=1&isThumb=0&color1=&color2=&color3=&color4=&scaleSize=1&isr=1&angle=1&${constructQueryString([o1, o2, o3])}`),
         ]);
 
 
